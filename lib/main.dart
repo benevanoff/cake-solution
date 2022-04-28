@@ -20,22 +20,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
-class MyHomePage extends StatefulWidget {
-
-  int pageNum = 0;
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-
-  @override
-  Widget build(BuildContext context) {
-    if (widget.pageNum == 1) {
-      return Column();
-    } else {
-      return Column();
-    }
-  }
-}
